@@ -69,7 +69,7 @@ end
 
 def list_pets
   # for each key, get the count of items in Array
-  binding.pry
+
 end 
  
 end
