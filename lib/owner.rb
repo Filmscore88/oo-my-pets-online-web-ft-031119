@@ -68,7 +68,6 @@ self.pets={}
 end
 
 def list_pets
-  binding.pry
   # for each key, get the count of items in Array
 "I have #{self.pets[:fishes].size} fish, #{self.pets[:dogs].size} dog(s), and #{self.pets[:cats].size} cat(s)."
 end 
