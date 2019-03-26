@@ -59,13 +59,16 @@ fish.mood=("happy")
 end
 
 def sell_pets
-  self.pets.each { |type, name_array|
-      name_array.each { |pet|
-        pet.mood = "nervous"
+self.pets.each { |type, name_array|
+  name_array.each { |pet|
+  pet.mood = "nervous"
+}
   }
-      }
-   self.pets={}
+self.pets={}
 end
 
+def list_pets
+  binding.pry
+end 
  
 end
