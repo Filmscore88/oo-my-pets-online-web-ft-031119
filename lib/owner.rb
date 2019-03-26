@@ -69,7 +69,7 @@ end
 
 def list_pets
   # for each key, get the count of items in Array
-"I have #{@pets[:fish].size} fish, #{@pets[:dogs].size} dog(s), and #{@pets[:cats].size} cat(s)."
+"I have #{self.pets[:fish].size} fish, #{self.pets[:dogs].size} dog(s), and #{self.pets[:cats].size} cat(s)."
 end 
  
 end
